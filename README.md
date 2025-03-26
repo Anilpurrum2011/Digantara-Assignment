@@ -72,11 +72,13 @@ A responsive, dynamic multi-step form with data persistence and validation.
 
  ### Step 2: Contact Information
 
- ![image](https://github.com/user-attachments/assets/bc195f22-4059-44aa-9800-84213686646b)
+ ![image](https://github.com/user-attachments/assets/b9fdbe0b-f38e-4098-87a4-420fdb7e093e)
+
 
  ### Step 3: Summary
 
- ![image](https://github.com/user-attachments/assets/a88ab09a-ef9d-4e93-968a-3f4fa3a5c14e)
+ ![image](https://github.com/user-attachments/assets/73e6a238-025d-460f-9926-4b58a2d7af2a)
+
 
 ## License 
 
