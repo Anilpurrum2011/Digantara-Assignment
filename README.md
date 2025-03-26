@@ -42,8 +42,24 @@ A responsive, dynamic multi-step form with data persistence and validation.
   Submit: Form resets cleanly for new entries
 
 ## Code Structure 
-
+```bash
   multi-step-form/
   ├── index.html        # Main HTML structure
   ├── styles.css        # All styling rules
   └── script.js         # Form logic and functionality
+```
+
+## Key Features in Detail 
+
+-**Progress Bar**: Visual indicator showing current step
+-**Form Validation**: Ensures all required fields are filled
+-**Data Persistence**: Saves progress automatically
+-**Responsive Layout**: Works on mobile, tablet and desktop
+-**Print Functionality**: Option to print the summary
+
+## Future Improvements 
+
+-Add server-side submission handling
+-Implement more advanced validation
+-Include PDF export option
+-Add dark mode support
