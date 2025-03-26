@@ -27,4 +27,23 @@ A responsive, dynamic multi-step form with data persistence and validation.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/multi-step-form.git](https://github.com/Anilpurrum2011/Digantara-Assignment.git)
+   git clone https://github.com/Anilpurrum2011/Digantara-Assignment.git
+
+2. Open the project folder:
+   ```bash
+   cd multi-step-form
+3. Open index.html in your browser
+
+## How It Works 
+
+  Step 1: Fill in personal details
+  Step 2: Enter contact information
+  Step 3: Review your data before submission
+  Submit: Form resets cleanly for new entries
+
+## Code Structure 
+
+  multi-step-form/
+  ├── index.html        # Main HTML structure
+  ├── styles.css        # All styling rules
+  └── script.js         # Form logic and functionality
