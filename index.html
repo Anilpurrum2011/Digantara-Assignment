@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Multi-Step Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <!-- Progress Indicator -->
+    <div class="progress-bar">
+      <div class="progress-step" data-step="1">Basic Details</div>
+      <div class="progress-step" data-step="2">Contact Info</div>
+      <div class="progress-step" data-step="3">Summary</div>
+    </div>
+
+    <!-- Form Steps -->
+    <form id="multiStepForm">
+      <!-- Step 1: Basic Details -->
+      <div class="form-step active" data-step="1">
+        <h2>Step 1: Basic Details</h2>
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="nationality">Nationality:</label>
+          <input type="text" id="nationality" name="nationality" required>
+        </div>
+        <div class="form-group">
+          <label for="occupation">Occupation:</label>
+          <input type="text" id="occupation" name="occupation" required>
+        </div>
+        <div class="button-group">
+          <button type="button" class="next-btn">Next</button>
+        </div>
+      </div>
+
+      <!-- Step 2: Contact Information -->
+      <div class="form-step" data-step="2">
+        <h2>Step 2: Contact Information</h2>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="button-group">
+          <button type="button" class="back-btn">Back</button>
+          <button type="button" class="next-btn">Next</button>
+        </div>
+      </div>
+
+      <!-- Step 3: Summary -->
+      <div class="form-step" data-step="3">
+        <h2>Step 3: Summary</h2>
+        <div id="summary"></div>
+        <div class="button-group">
+          <button type="button" class="back-btn">Back</button>
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
