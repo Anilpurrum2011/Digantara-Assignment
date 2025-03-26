@@ -51,15 +51,35 @@ A responsive, dynamic multi-step form with data persistence and validation.
 
 ## Key Features in Detail 
 
--**Progress Bar**: Visual indicator showing current step
--**Form Validation**: Ensures all required fields are filled
--**Data Persistence**: Saves progress automatically
--**Responsive Layout**: Works on mobile, tablet and desktop
--**Print Functionality**: Option to print the summary
+- **Progress Bar**: Visual indicator showing current step
+- **Form Validation**: Ensures all required fields are filled
+- **Data Persistence**: Saves progress automatically
+- **Responsive Layout**: Works on mobile, tablet and desktop
+- **Print Functionality**: Option to print the summary
 
 ## Future Improvements 
 
--Add server-side submission handling
--Implement more advanced validation
--Include PDF export option
--Add dark mode support
+- Add server-side submission handling
+- Implement more advanced validation
+- Include PDF export option
+- Add dark mode support
+
+## Screenshots
+
+ ### Step 1: Basic Details:
+
+![image](https://github.com/user-attachments/assets/cfb88f27-8c72-403d-aa57-082cdd85bf92)
+
+ ### Step 2: Contact Information
+
+ ![image](https://github.com/user-attachments/assets/bc195f22-4059-44aa-9800-84213686646b)
+
+ ### Step 3: Summary
+
+ ![image](https://github.com/user-attachments/assets/a88ab09a-ef9d-4e93-968a-3f4fa3a5c14e)
+
+## License 
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
